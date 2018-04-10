@@ -9,5 +9,6 @@ namespace JobApplication.BLL
     public interface IJobDBRepository
     {
         IEnumerable<Region> AllRegions();
+        IEnumerable<Kompetence> KompetenceByAnnonceID(long id);
     }
 }

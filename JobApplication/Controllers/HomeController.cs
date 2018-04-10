@@ -20,7 +20,7 @@ namespace JobApplication.Controllers
         public IActionResult Index()
         {
             //bare til test hurtigt.
-            var all = db.AllRegions();
+            var all = db.KompetenceByAnnonceID(2);
                 return View(all);
         }
 
